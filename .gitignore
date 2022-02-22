@@ -1,0 +1,11 @@
+t.sh
+start.sh
+node_modules
+config.json
+src/config.json
+src/system.draw
+src/functions/
+.config/
+.replit
+replit.nix
+

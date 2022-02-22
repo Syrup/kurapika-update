@@ -1,0 +1,37 @@
+{
+  "name": "kurapika-v2",
+  "version": "2.0.0",
+  "description": "Kurapika V2 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bash start.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syrup/kurapika.git"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "commando-akairo"
+  ],
+  "dependencies": {
+    "@discordjs/builders": "latest",
+    "@discordjs/rest": "latest",
+    "axios": "latest",
+    "discord-api-types": "latest",
+    "discord.js": "^13.5.0-dev.1640390738.2bfc638",
+    "dotenv": "latest",
+    "hjson": "latest",
+    "topgg-autoposter": "latest",
+    "node-fetch": "latest",
+    "node-superfetch": "latest",
+    "ms": "latest"  },
+  "author": "Syrup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Syrup/kurapika/issues"
+  },
+  "homepage": "https://github.com/Syrup/kurapika#readme"
+}

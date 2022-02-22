@@ -1,0 +1,12 @@
+{
+  // TOKEN (not recomended to fill it in here, better write in .env)
+  TOKEN: "",
+  // CLIENT_ID
+  CLIENT_ID: "707651800072716360",
+  // GUILD_ID 
+  GUILD_ID: "380289224043266048",
+  // USER_ID (fill it with ur Discord ID)
+  USER_ID: "681843628317868049",
+  // your bot prefix (alternative of slash command) (not ready yet)
+  PREFIX: "ku."
+}
