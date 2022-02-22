@@ -59,7 +59,10 @@ module.exports = {
       .setTitle(`Kick ${member.user.tag}?`)
       .setDescription(`Do you really want to kick ${member}\nWith reason: ${reason}?`)
       .setColor("RANDOM")
-      .setFooter(`${msg.user.tag} want to kick ${member.user.tag}?`, msg.user.displayAvatarURL({ format: "png", dynamic: true }))
+      .setFooter({
+        text: `${msg.user.tag} want to kick ${member.user.tag}?`,
+        iconUrl: msg.user.displayAvatarURL({ format: "png", dynamic: true })
+                 })
       .setTimestamp()
     
     let m = await msg.reply({ fetchReply: true, embeds: [embed], components: [row] })

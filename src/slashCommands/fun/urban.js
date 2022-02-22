@@ -45,7 +45,9 @@ exports.run = async (client, message) => {
     value: `\`${date}\``,
     inline: true
   }])
-  .setFooter(`👍 ${list.thumbs_up} | 👎 ${list.thumbs_down}`)
+  .setFooter({
+    text: `👍 ${list.thumbs_up} | 👎 ${list.thumbs_down}`
+  })
   
   // message.editReply(`**${term}**\n\n${list.definition}`)
   message.editReply({ embeds: [embed], components: [row] })

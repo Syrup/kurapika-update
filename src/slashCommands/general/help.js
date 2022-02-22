@@ -21,7 +21,9 @@ module.exports = {
     const embed = new MessageEmbed()
       .setColor("#fff62e")
       .setTimestamp()
-      .setFooter("Type \`/help command: commandName\` to see command details")
+      .setFooter({
+        text: "Type \`/help command: commandName\` to see command details"
+      })
     if(!commandName) {
       embed
       .setTitle("Kurapika Help")
@@ -33,7 +35,7 @@ module.exports = {
         let cmd = commands.filter(x => x.conf.category === category && x.conf.global)
         if(category === "Fun") category = "<a:rainbow_wtf:929755507487551528> | " + category
         else if(category === "Moderator") category = "<a:Pepe_Ban:929994955429142538>  | " + category
-        console.log(cmd.map(x => x.conf.name).join("\n"))
+        // console.log(cmd.map(x => x.conf.name).join("\n"))
         // elseif(category === ""
         embed.addField(category,
                        cmd.map(x => `\`${x.conf.name}\``).join(" - ")
