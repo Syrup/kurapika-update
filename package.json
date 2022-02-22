@@ -21,13 +21,14 @@
     "@discordjs/rest": "latest",
     "axios": "latest",
     "discord-api-types": "latest",
-    "discord.js": "^13.5.0-dev.1640390738.2bfc638",
+    "discord.js": "^13.6.0",
     "dotenv": "latest",
     "hjson": "latest",
     "topgg-autoposter": "latest",
     "node-fetch": "latest",
     "node-superfetch": "latest",
-    "ms": "latest"  },
+    "ms": "latest"
+  },
   "author": "Syrup",
   "license": "MIT",
   "bugs": {
