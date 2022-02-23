@@ -19,8 +19,8 @@ Replit can't use canvas on nodejs version 16 requires some special files
 
 Check how to make it work
 
-1. go to [replit](/folders)
-2. then copy all the files that are in the [replit](/folders) into your replit with no folders, only files
+1. go to [folders](/folders)
+2. then copy all the files that are in the [folders](/folders) into your replit with no folders, only files
 3. delete .replit and change `replit` to `.replit`
 4. delete replit.nix if available and change `r.nix` to `replit.nix`
 - Files:
