@@ -10,7 +10,23 @@ I made this bot the first time just for fun and i published this bot to top.gg j
 
 So, because this bot has already been used by maybe "many" servers, I will be more serious in developing this bot. Thank you ♥
 
-### Commands 🤖
+# Tutorial ❔
+
+## Replit
+Want to clone this repo to [Replit](https://replit.com/)?
+
+Replit can't use canvas on nodejs version 16 requires some special files
+
+Check how to make it work
+1. go to [replit](/replit)
+2. then copy all the files that are in the [replit](/replit) into your replit with no folders, only files
+  1. [build.nix](/replit/build.nix)
+  2. [run.nix](/replit/run.nix)
+  3. [replit.nix](/replit/replit.nix)
+  4. [.replit](/replit/.replit)
+
+
+ Commands 🤖
 - Moderator
   - Kick
   - Timeout

@@ -27,12 +27,13 @@
     "topgg-autoposter": "latest",
     "node-fetch": "latest",
     "node-superfetch": "latest",
-    "ms": "latest"
+    "ms": "latest",
+    "canvas": "latest"
   },
   "author": "Syrup",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Syrup/kurapika/issues"
+    "url": "https://github.com/Syrup/kurapika-update2/issues"
   },
-  "homepage": "https://github.com/Syrup/kurapika#readme"
+  "homepage": "https://github.com/Syrup/kurapika-update2#readme"
 }

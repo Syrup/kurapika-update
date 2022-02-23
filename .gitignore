@@ -8,4 +8,5 @@ src/functions/
 .config/
 .replit
 replit.nix
-
+build.nix
+run.nix

@@ -16,6 +16,8 @@ const { AutoPoster } = require('topgg-autoposter')
 require("./handlers/slash")(client);
 require("./handlers/events")(client)
 
+console.log(require("canvas"))
+
 http.createServer((req, res) => {
   res.writeHead(200, {
     "Content-Type": "text/plain"
