@@ -18,15 +18,19 @@ Want to clone this repo to [Replit](https://replit.com/)?
 Replit can't use canvas on nodejs version 16 requires some special files
 
 Check how to make it work
-1. go to [replit](/replit)
-2. then copy all the files that are in the [replit](/replit) into your replit with no folders, only files
-  1. [build.nix](/replit/build.nix)
-  2. [run.nix](/replit/run.nix)
-  3. [replit.nix](/replit/replit.nix)
-  4. [.replit](/replit/.replit)
+
+1. go to [replit](/folders)
+2. then copy all the files that are in the [replit](/folders) into your replit with no folders, only files
+3. delete .replit and change `replit` to `.replit`
+4. delete replit.nix if available and change `r.nix` to `replit.nix`
+- Files:
+  - [build.nix](/folders/build.nix)
+  - [run.nix](/folders/run.nix)
+  - [r.nix](/folders/r.nix)
+  - [replit](/folders/replit)
 
 
- Commands 🤖
+## Commands 🤖
 - Moderator
   - Kick
   - Timeout
