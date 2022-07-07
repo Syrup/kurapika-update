@@ -1,0 +1,25 @@
+{
+  "name": "kurapika-update",
+  "version": "3.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon build/index.js",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@sapphire/decorators": "^4.3.6",
+    "@sapphire/discord.js-utilities": "^4.11.3",
+    "@sapphire/framework": "^2.5.1",
+    "@sapphire/plugin-editable-commands": "^1.2.0",
+    "@sapphire/utilities": "^3.7.0",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.18"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
