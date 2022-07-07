@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon build/index.js",
+    "start": "node build/index.js",
+		"watch": "nodemon build/index.js",
     "build": "tsc",
     "build:watch": "tsc --watch"
   },
